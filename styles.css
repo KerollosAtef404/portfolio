@@ -219,17 +219,21 @@ body {
 /* Services Grid */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
 }
 
 .service-item {
     background-color: var(--card-bg);
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
-    text-align: center;
     border: 1px solid var(--border-color);
-    font-weight: 600;
+    border-left: 4px solid var(--accent-color);
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
 }
 
 /* Projects Grid */
