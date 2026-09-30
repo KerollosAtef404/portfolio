@@ -17,7 +17,9 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
             <li><a href="#achievements">Achievements</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -33,6 +35,7 @@
                 <div class="hero-buttons">
                     <a href="#contact" class="btn primary-btn"><i class="fas fa-paper-plane"></i> Get in Touch</a>
                     <a href="#projects" class="btn secondary-btn"><i class="fas fa-code"></i> View Projects</a>
+                    <a href="https://drive.google.com/file/d/1y-j5805MBifQDllWTti3B7Fje-OWsQJ3/view?usp=sharing" target="_blank" class="btn secondary-btn" style="background-color: #2563eb; color: #fff;"><i class="fas fa-file-pdf"></i> CV</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -49,7 +52,28 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-card">
                 <p><strong>I am a dedicated Web Penetration Tester and Cybersecurity Professional</strong> focused on identifying critical vulnerabilities in web applications and network infrastructures. Combining hands-on ethical hacking skills with a strong foundation in enterprise network security, <strong>I help businesses secure their digital assets</strong> and mitigate threats before they can be exploited. Passionate about Bug Bounty hunting, threat intelligence, and continuous technical evolution.</p>
+                
+                <!-- Stats Grid -->
+                <div class="about-stats" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; margin-top: 25px; text-align: center;">
+                    <div style="background: #1e293b; padding: 20px; border-radius: 8px; border-bottom: 3px solid #3b82f6;">
+                        <h3 style="font-size: 2rem; color: #3b82f6; margin-bottom: 5px;">6+</h3>
+                        <p style="color: #94a3b8; font-size: 0.95rem;">Completed Projects</p>
+                    </div>
+                    <div style="background: #1e293b; padding: 20px; border-radius: 8px; border-bottom: 3px solid #10b981;">
+                        <h3 style="font-size: 2rem; color: #10b981; margin-bottom: 5px;">3+</h3>
+                        <p style="color: #94a3b8; font-size: 0.95rem;">Major Certifications</p>
+                    </div>
+                    <div style="background: #1e293b; padding: 20px; border-radius: 8px; border-bottom: 3px solid #f59e0b;">
+                        <h3 style="font-size: 2rem; color: #f59e0b; margin-bottom: 5px;">100%</h3>
+                        <p style="color: #94a3b8; font-size: 0.95rem;">NTI Score Excellence</p>
+                    </div>
+                    <div style="background: #1e293b; padding: 20px; border-radius: 8px; border-bottom: 3px solid #ef4444;">
+                        <h3 style="font-size: 2rem; color: #ef4444; margin-bottom: 5px;">96%</h3>
+                        <p style="color: #94a3b8; font-size: 0.95rem;">Fortinet Score</p>
+                    </div>
+                </div>
             </div>
+
             <div class="edu-card" style="margin-top: 20px;">
                 <h3><i class="fas fa-graduation-cap"></i> Educational Background</h3>
                 <p style="font-size: 1.15rem; font-weight: bold; color: #ffffff; margin-bottom: 8px;">Beni Suef National University</p>
@@ -140,46 +164,116 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="section dark-bg">
+        <div class="container">
+            <h2 class="section-title">Professional Experience & Training</h2>
+            <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="service-item" style="padding: 25px; background: #0f172a; border-radius: 10px; border-left: 4px solid #2563eb;">
+                    <h3 style="margin-bottom: 10px; color: #ffffff;"><i class="fas fa-laptop-code" style="color: #2563eb; margin-right: 8px;"></i> IT Security & Cybersecurity Trainee</h3>
+                    <p style="font-weight: bold; color: #3b82f6; margin-bottom: 8px;">The Egyptian Exchange (EGX) — Financial Infrastructure</p>
+                    <p style="color: #94a3b8; font-size: 0.95rem; line-height: 1.6;">Completed practical IT and security training rotation covering financial infrastructure protection, network security monitoring, and secure system operations.</p>
+                </div>
+                <div class="service-item" style="padding: 25px; background: #0f172a; border-radius: 10px; border-left: 4px solid #2563eb;">
+                    <h3 style="margin-bottom: 10px; color: #ffffff;"><i class="fas fa-shield-alt" style="color: #2563eb; margin-right: 8px;"></i> Vulnerability Analyst & Penetration Tester Trainee</h3>
+                    <p style="font-weight: bold; color: #3b82f6; margin-bottom: 8px;">Digital Egypt Pioneers Initiative (DEPI)</p>
+                    <p style="color: #94a3b8; font-size: 0.95rem; line-height: 1.6;">Enrolled in the professional penetration testing track, mastering network segment testing, vulnerability assessment methodologies, and web application security standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
-    <section id="projects" class="section dark-bg">
+    <section id="projects" class="section">
         <div class="container">
             <h2 class="section-title">Project Portfolio</h2>
             <div class="projects-grid">
+                <!-- Project 1 -->
                 <div class="project-card">
-                    <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #334155;">
+                        <img src="1.png" alt="AI-SOC FortiGate Automation" style="width: 100%; height: auto; display: block;">
+                    </div>
                     <h3>AI-SOC FortiGate Automation</h3>
                     <p><strong>Automated SOC workflow</strong> integrating AI analysis scripts with FortiGate REST APIs and Flask dashboards for real-time threat detection and security alert triage.</p>
                     <a href="https://github.com/KerollosAtef404/AI-SOC-FortiGate-Automation" target="_blank" class="btn project-btn">View Project <i class="fas fa-external-link-alt"></i></a>
                 </div>
+                <!-- Project 2 -->
                 <div class="project-card">
-                    <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+                    <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #334155;">
+                        <img src="2.png" alt="Enterprise FortiGate NGFW Lab" style="width: 100%; height: auto; display: block;">
+                    </div>
                     <h3>Enterprise FortiGate NGFW Lab</h3>
                     <p><strong>Implemented enterprise firewall lab</strong> using FortiGate with strict security policies, routing protocols, and network segmentation to secure simulated infrastructure.</p>
                     <a href="https://github.com/KerollosAtef404/FortiGate-NGFW-Lab" target="_blank" class="btn project-btn">View Project <i class="fas fa-external-link-alt"></i></a>
                 </div>
+                <!-- Project 3 -->
                 <div class="project-card">
-                    <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #334155;">
+                        <img src="3.png" alt="Windows SOC Detection Lab" style="width: 100%; height: auto; display: block;">
+                    </div>
                     <h3>Windows SOC Detection Lab</h3>
                     <p><strong>Built a dedicated SOC environment</strong> focused on Windows security event monitoring, threat detection, and investigating simulated adversary activities.</p>
                     <a href="https://github.com/KerollosAtef404/Windows-SOC-Detection-Lab" target="_blank" class="btn project-btn">View Project <i class="fas fa-external-link-alt"></i></a>
                 </div>
+                <!-- Project 4 -->
                 <div class="project-card">
-                    <div class="project-icon"><i class="fas fa-search-location"></i></div>
+                    <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #334155;">
+                        <img src="4.png" alt="SOC Brute-Force Detection" style="width: 100%; height: auto; display: block;">
+                    </div>
                     <h3>SOC Brute-Force Detection</h3>
                     <p><strong>Developed log analysis scripts</strong> and SIEM rules to detect and alert against automated brute-force attacks across network endpoints.</p>
                     <a href="https://github.com/KerollosAtef404/SOC-Brute-Force-Detection" target="_blank" class="btn project-btn">View Project <i class="fas fa-external-link-alt"></i></a>
                 </div>
+                <!-- Project 5 -->
                 <div class="project-card">
-                    <div class="project-icon"><i class="fas fa-globe-americas"></i></div>
+                    <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #334155;">
+                        <img src="5.png" alt="URL Security Dashboard" style="width: 100%; height: auto; display: block;">
+                    </div>
                     <h3>URL Security Dashboard</h3>
                     <p><strong>Created a web-based threat intel tool</strong> utilizing Flask and VirusTotal API integration for rapid inspection and security risk scoring of URLs.</p>
                     <a href="https://github.com/KerollosAtef404/url-security-dashboard" target="_blank" class="btn project-btn">View Project <i class="fas fa-external-link-alt"></i></a>
                 </div>
+                <!-- Project 6 -->
                 <div class="project-card">
-                    <div class="project-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #334155;">
+                        <img src="6.png" alt="Elbashhacker Platform" style="width: 100%; height: auto; display: block;">
+                    </div>
                     <h3>Elbashhacker Platform</h3>
                     <p><strong>Designed and deployed an educational web platform</strong> targeted at cybersecurity learners, hosted seamlessly via modern cloud infrastructure.</p>
                     <a href="https://github.com/KerollosAtef404/elbashhacker-platform" target="_blank" class="btn project-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section dark-bg">
+        <div class="container">
+            <h2 class="section-title">Certificates & Credentials</h2>
+            <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <!-- Certificate 1 -->
+                <div class="service-item" style="padding: 25px; background: #1e293b; border-radius: 10px; border-left: 4px solid #10b981;">
+                    <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #334155;">
+                        <img src="0.jpg" alt="The Egyptian Exchange (EGX) Certificate" style="width: 100%; height: auto; display: block;">
+                    </div>
+                    <h3 style="margin-bottom: 10px; color: #ffffff;">The Egyptian Exchange (EGX)</h3>
+                    <p style="color: #94a3b8; font-size: 0.95rem;">Awarded upon successful completion of professional cybersecurity and financial infrastructure security training program.</p>
+                </div>
+                <!-- Certificate 2 -->
+                <div class="service-item" style="padding: 25px; background: #1e293b; border-radius: 10px; border-left: 4px solid #10b981;">
+                    <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #334155;">
+                        <img src="00.jpg" alt="Digital Egypt Pioneers Initiative (DEPI) Certificate" style="width: 100%; height: auto; display: block;">
+                    </div>
+                    <h3 style="margin-bottom: 10px; color: #ffffff;">Digital Egypt Pioneers Initiative (DEPI)</h3>
+                    <p style="color: #94a3b8; font-size: 0.95rem;">Comprehensive certification covering Vulnerability Analysis and Penetration Testing core curriculum and practical labs.</p>
+                </div>
+                <!-- Certificate 3 -->
+                <div class="service-item" style="padding: 25px; background: #1e293b; border-radius: 10px; border-left: 4px solid #10b981;">
+                    <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid #334155;">
+                        <img src="000.jpg" alt="Fortinet Certificate" style="width: 100%; height: auto; display: block;">
+                    </div>
+                    <h3 style="margin-bottom: 10px; color: #ffffff;">Fortinet — 96% Score</h3>
+                    <p style="color: #94a3b8; font-size: 0.95rem;">Validated proficiency in enterprise network security architecture, next-generation firewalls, and traffic filtering policies.</p>
                 </div>
             </div>
         </div>
